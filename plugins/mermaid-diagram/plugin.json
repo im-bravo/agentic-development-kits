@@ -1,0 +1,53 @@
+{
+  "name": "mermaid-diagram",
+  "version": "1.0.0",
+  "description": "创建稳定、准确、美观、合理的 Mermaid 图表。包含主题系统、马卡龙配色、自动验证修复循环。",
+  "author": "agentic-development-kits",
+  "license": "MIT",
+  "mcp": {
+    "server": {
+      "command": "npx",
+      "args": ["-y", "mcp-mermaid"],
+      "transport": "stdio"
+    }
+  },
+  "skills": [
+    {
+      "name": "mermaid-diagram",
+      "file": "SKILL.md",
+      "description": "Mermaid 图表生成技能"
+    }
+  ],
+  "supportedTools": [
+    {
+      "name": "cursor",
+      "configPath": ".cursor/mcp.json",
+      "skillPath": ".cursor/rules"
+    },
+    {
+      "name": "kimi",
+      "configPath": "~/.kimi/mcp.json",
+      "skillPath": "~/.kimi/skills"
+    },
+    {
+      "name": "mimocode",
+      "configPath": "~/.mimocode/mcp.json",
+      "skillPath": "~/.mimocode/skills"
+    },
+    {
+      "name": "claude-desktop",
+      "configPath": "~/Library/Application Support/Claude/claude_desktop_config.json",
+      "skillPath": null
+    },
+    {
+      "name": "cline",
+      "configPath": ".vscode/mcp.json",
+      "skillPath": ".cline/rules"
+    },
+    {
+      "name": "continue",
+      "configPath": "~/.continue/config.json",
+      "skillPath": null
+    }
+  ]
+}
